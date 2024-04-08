@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 body {
@@ -28,8 +29,7 @@ body {
     border-right: 1px solid #ececec;
     background-color: #f2f2f2;
     max-width: 25%;
-    border-radius: 0 50px 50px 0;
-    display: flex;
+    border-radius: 0 50px 50px 0; 
     align-items: center;
     justify-content: center;
 }
@@ -48,5 +48,62 @@ h1 {
 .introduction {
     margin-top: 10px;
     font-size: 12px;
-    font-style: italic;
+    font-family: "Roboto", sans-serif;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.contact ul li{
+   list-style: none;
+   margin-top: 10px;
+  
+  
+}
+.contact ul li i{
+    padding-right: 15px;
+}
+.right{
+    border-left: 1px solid #f1e8e8;
+    background-color: #ffffff;
+    max-width: 75%;
+    border-radius: 50px 0 0 50px; 
+    align-items: center;
+    justify-content: center;
+}
+.language{
+margin-top: 10px;
+list-style: none;
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+font-family: "Roboto", sans-serif;
+}
+.skills h2{
+    text-align: left;
+}
+.education p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.education h2{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.education ul li{
+    margin-top: 20px;
+}
+.project h2{
+    margin-top: -20px;
+    text-align: left;
+}
+.education h4{
+    margin-bottom: 10px;
+}
+
+.education ul li{
+    justify-content: space-between;
+    margin-top: 10px;
 }
